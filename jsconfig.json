@@ -1,7 +1,6 @@
 {
     "compilerOptions": {
         "module": "node16",
-        
         "jsx": "react-jsx"
     },
     "include": [
