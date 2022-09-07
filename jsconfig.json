@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "node16",
+        
+        "jsx": "react-jsx"
+    },
+    "include": [
+        "types/**/*.d.ts",
+        "src/**/*.js",
+        "src/**/*.jsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
