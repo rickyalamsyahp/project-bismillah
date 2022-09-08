@@ -1,7 +1,8 @@
 {
     "compilerOptions": {
         "module": "node16",
-        "jsx": "react-jsx"
+        "jsx": "react-jsx",
+        "allowUmdGlobalAccess": true
     },
     "include": [
         "types/**/*.d.ts",

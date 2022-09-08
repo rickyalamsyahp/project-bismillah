@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import "../Style/default.css"
+import "../Style/default.css";
 import Home from "../Screen/Home/index";
 import Dashboard from "../Screen/Dashboard/Dashboard";
 import Forecasting from "../Screen/Forecasting/index";
@@ -14,8 +14,8 @@ export default function App() {
   // const classes = useStyles();
   return (
     <>
-      <Navbar/>
-      <div style={{height:"calc(100vh - 65px)", background:"#f6f6f6"}}>
+      <Navbar />
+      <div style={{ height: "calc(100vh - 65px)", background: "#f6f6f6" }}>
         <Drawer />
         <Switch>
           <Route exact from="/" render={props => <Home {...props} />} />
@@ -24,7 +24,7 @@ export default function App() {
           <Route exact path="/forcasting" render={props => <Clustering {...props} />} />
           <Route exact path="/mapService" render={props => <MapService {...props} />} />
         </Switch>
-    </div>
+      </div>
     </>
   );
 }
